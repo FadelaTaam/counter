@@ -41,3 +41,9 @@ div.fade.alert.alert-success.show {
   color: yellowgreen;
 
 }
+div.fade.alert.alert-warning.show {
+  background-color: pink;
+}
+div.col {
+  background-color: pink;
+}

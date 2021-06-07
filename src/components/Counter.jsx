@@ -13,7 +13,7 @@ class Counter extends React.Component {
         }
         if (this.props.count === 100) {
             variant = "warning";
-            message = "please stop!"
+            message = "Please STOP!"
         }
         let alert = (<Alert variant={variant}>
             {message}
