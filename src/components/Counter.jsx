@@ -2,13 +2,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Alert from 'react-bootstrap/Alert'
+
 class Counter extends React.Component {
     render() {
         let variant = "success";
-        let message = "you can increase upto 100";
+        let message = "You can increase up to 100";
         if (this.props.count === 0) {
             variant = "danger";
-            message = "you can't go below 0";
+            message = "You can't go below 0";
         }
         if (this.props.count === 100) {
             variant = "warning";

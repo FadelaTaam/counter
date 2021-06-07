@@ -1,5 +1,5 @@
 .App{
-  background: linear-gradient(blue, white);
+  background: linear-gradient(rgb(49, 206, 185), rgb(221, 171, 217));
   height:500px;
 }
 .header{
@@ -24,6 +24,20 @@ button.btn2.btn.btn-danger.btn-lg{
   width: 100px;
   margin-right: 40px;
 }
+h1.header{
+  font-style:italic;
+  font-weight: bolder;
+  font-size: 60px;
+  color: white;
+}
 h2{
   padding-top: 30px;
+  color: beige;
+}
+.alert{
+ color: crimson;
+}
+div.fade.alert.alert-success.show {
+  color: yellowgreen;
+
 }

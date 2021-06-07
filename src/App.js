@@ -23,7 +23,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App ">
-        <h1 className ="header ">Counter</h1>
+        <h1 className ="header ">COUNTER</h1>
         <Counter
           count={this.state.count}
           addFunction={this.incrementCount}
